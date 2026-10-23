@@ -4,12 +4,12 @@ A feature-rich terminal Hangman game built in Python with colored output, multip
 
 ## Features
 
-- **6 Word Categories** — Technology, Animals, Countries, Movies & TV, Science, Food & Drink (plus Random Mix)
-- **3 Difficulty Levels** — Easy (8 guesses), Normal (6 guesses), Hard (4 guesses + no hints)
-- **Hint System** — Reveal a hidden letter at the cost of one wrong guess
-- **Colored Terminal Output** — Color-coded feedback, progress bars, and hangman art (via colorama)
-- **Session Statistics** — Tracks wins, losses, win rate, current streak, and best streak
-- **Clean Interface** — Clear-screen transitions, formatted menus, and visual progress bar
+- **6 Word Categories**: Technology, Animals, Countries, Movies & TV, Science, Food & Drink (plus Random Mix)
+- **3 Difficulty Levels**: Easy (8 guesses), Normal (6 guesses), Hard (4 guesses + no hints)
+- **Hint System**: Reveal a hidden letter at the cost of one wrong guess
+- **Colored Terminal Output**: Color-coded feedback, progress bars, and hangman art (via colorama)
+- **Session Statistics**: Tracks wins, losses, win rate, current streak, and best streak
+- **Clean Interface**: Clear-screen transitions, formatted menus, and visual progress bar
 
 ## Preview
 
@@ -37,7 +37,7 @@ A feature-rich terminal Hangman game built in Python with colored output, multip
 ## Requirements
 
 - Python 3.7+
-- **colorama** (optional — the game works without it, just no colors)
+- **colorama** (optional, the game works without it, just no colors)
 
 ## Getting Started
 
@@ -62,7 +62,7 @@ A feature-rich terminal Hangman game built in Python with colored output, multip
 1. Select **New Game** from the main menu
 2. Choose a word category (or Random Mix for all categories)
 3. Pick a difficulty level
-4. Guess letters one at a time — correct letters are revealed, wrong guesses build the hangman
+4. Guess letters one at a time, correct letters are revealed, wrong guesses build the hangman
 5. Type `?` to use a hint (reveals a random letter, costs one guess)
 6. Guess the full word before the hangman is complete to win!
 
